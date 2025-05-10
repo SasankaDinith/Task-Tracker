@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.taskname{
+    margin: -40px -20px;
+    margin-bottom: 30px;
+    
+}
+
+.tasks-section{
+    margin-top: -100px;
+    margin-bottom: -70px;
+    justify-content: left;
+    text-align: left;
+    padding: 100px 100px;
+}
+
+
+h1 {
+    color: white;
+    background-color: #007BFF;
+    padding: 15px;
+   
+    margin-bottom: 20px;
+}
+
+.task-input, .task-filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-input input, .task-input select, .task-filters select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: white;
+    
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+button.complete {
+    background-color: #28a745;
+    color: white;
+}
+
+button.complete:hover {
+    background-color: #1c7c31;
+}
+
+button.remove {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.remove:hover {
+    background-color: #a71d2a;
+}
+
+button.undo {
+    background-color: #ffc107;
+    color: black;
+}
+
+button.undo:hover {
+    background-color: #d39e00;
+}
+
+.clear-all {
+    width: 30%;
+    background-color: #007BFF;
+    margin-top: 10px;
+}
+
+.clear-all:hover {
+    background-color: #0056b3;
+}
+
+
+
