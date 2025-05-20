@@ -3,21 +3,27 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+ 
 }
 
+
 .container {
-    max-width: 700px;
+    max-width: 800px;
     margin: 50px auto;
     background: white;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
+
 }
 
 .taskname{
     margin: -40px -20px;
     margin-bottom: 30px;
-    
+ 
+
+ 
+
 }
 
 .tasks-section{
@@ -26,6 +32,8 @@ body {
     justify-content: left;
     text-align: left;
     padding: 100px 100px;
+
+
 }
 
 
@@ -33,7 +41,6 @@ h1 {
     color: white;
     background-color: #007BFF;
     padding: 15px;
-   
     margin-bottom: 20px;
 }
 
@@ -42,6 +49,7 @@ h1 {
     justify-content: center;
     gap: 10px;
     margin-bottom: 20px;
+    
 }
 
 .task-input input, .task-input select, .task-filters select {
@@ -49,6 +57,7 @@ h1 {
     font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 4px;
+        border: 2px solid #000000;
 }
 
 ul {
@@ -65,6 +74,7 @@ li {
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    border: 2px solid #000000;
 }
 
 li.completed {
