@@ -65,7 +65,6 @@
 └── script.js
   </pre>
 
-  <p>Created by Sasanka | <a href="https://github.com/SasankaDinith" target="_blank">GitHub</a></p>
 
 
 
